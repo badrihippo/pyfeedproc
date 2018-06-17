@@ -17,3 +17,10 @@ class ExampleProcessor(FeedProc):
         return truncated_title
 
 The whole system is quite simple. It is intended to remove annoyances from RSS feeds, such as adverts, similar to what "Yahoo Pipes" is, but FeedProc is *much* simpler and does not depend on third-party servers. It is also much more flexible (as processors are simple Python classes)
+
+LICENSE
+=======
+
+The original code, feedproc.py, is in the public domain. You are free to copy, modify, publish, or use this software in any way you like. See the LICENSE file for details.
+
+"PyRSS2Gen.py" and "feedparser.py" are independent projects with their own licences. Please see the respective files or project homepages for more information.
